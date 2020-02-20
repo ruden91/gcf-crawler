@@ -1,0 +1,20 @@
+{
+  "name": "gcf-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "functions-framework --target=scrapingExample",
+    "deploy": "gcloud functions deploy scrapingExample --trigger-http --runtime nodejs10 --memory 1024MB --region asia-northeast1"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.4.0",
+    "@google-cloud/storage": "^4.3.1",
+    "app-root-path": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "luxon": "^1.22.0",
+    "os": "^0.1.1",
+    "puppeteer": "^2.1.1"
+  }
+}
