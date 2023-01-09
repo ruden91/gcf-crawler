@@ -13,7 +13,7 @@
     "app-root-path": "^3.0.0",
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
-    "luxon": "^1.22.0",
+    "luxon": "^2.5.2",
     "os": "^0.1.1",
     "puppeteer": "^2.1.1"
   }
